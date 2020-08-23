@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: rgb(251,86,7);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    justify-items: center;
+}
+
+#round1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 2fr;
+}
+
+.gentitle {
+    font-weight: bold;
+}
+
+#images1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+
+img {
+    max-width: 100%;
+}
